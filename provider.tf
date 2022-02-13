@@ -3,7 +3,7 @@ terraform {
     organization = "blackdentech-aws"
 
     workspaces {
-      name = "S3-Bucket-Demo"
+      name = "S3-Demo-Workspace"
     }
   }
   required_providers {
