@@ -3,13 +3,13 @@ terraform {
     organization = "blackdentech-aws"
 
     workspaces {
-      name = "S3-Bucket-Demo"
+      name = "S3-Demo-Workspace"
     }
   }
   required_providers {
     aws = {
       source  = "hashicorp/aws"
-      version = "3.70.0"
+      version = "4.0.0"
     }
   }
 }
